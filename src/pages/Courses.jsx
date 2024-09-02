@@ -91,7 +91,7 @@ const Courses = () => {
                         </div>
                       </div>
                       <div className=" flex py-4 justify-between relative">
-                        <div className=" absolute flex gap-44 font-semibold pt-3 text-white top-[-230px] left-0">
+                        <div className=" absolute flex items-center justify-between w-full font-semibold text-white top-[-210px] left-0">
                           <div className=" static flex items-center gap-1 bg-orange-500 px-3 py-1">
                             <p className=" font-bold">
                               <BsClock />
