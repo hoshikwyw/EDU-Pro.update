@@ -22,7 +22,7 @@ html{
     display: block;
     height: calc(100% - 10px);
     width: calc(100% - 10px);
-    background-color: rgb(207, 84, 207);
+    background-color: rgb(51, 120, 198);
     /* background-color: rgb(128, 42, 128); */
 
     border-radius: 50%;

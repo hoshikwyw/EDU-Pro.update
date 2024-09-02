@@ -29,7 +29,7 @@ const BackToTop = () => {
   window.onload = calcScrollValue;
 
   const progressStyle = {
-    background: `conic-gradient(rgb(128, 42, 128) ${scrollValue}%, rgb(207, 84, 207) ${scrollValue}%)`,
+    background: `conic-gradient(rgb(155, 188, 227) ${scrollValue}%, rgb(51, 120, 198) ${scrollValue}%)`,
   };
 
   return (
