@@ -1,0 +1,35 @@
+.hoverBtn:hover .hoverEl {
+  color: #f86f03;
+}
+/* .swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+} */
+
+.swiper-slide-active {
+  transform: translate3d(0, 0, 0);
+  transition: 1s;
+}
+.swiper-slide-shadow {
+  background-color: transparent;
+  display: none;
+}
+.swiper-container {
+  /* Disable box-shadow */
+  box-shadow: none !important;
+}
+
+.swiper-slide::before {
+  /* Hide the slice shadow */
+  background-image: none !important;
+}
+.swiper-slide::after {
+  /* Hide the slice shadow */
+  background-image: none !important;
+}
+.flex-row {
+  flex-direction: row;
+}
